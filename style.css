@@ -1,0 +1,14 @@
+footer{
+    background-image: url("assets/images/footer-bg.png");
+    background-size: cover;
+
+}
+.footer-heading {
+    font-size: 29px;
+    letter-spacing: 0;
+    color: #ffffff;
+    font-family: "Lucida Sans", monospace;
+    font-style: italic;
+    text-align: center;
+    display: inline;
+}
