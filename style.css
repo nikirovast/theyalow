@@ -1,8 +1,22 @@
-footer{
+body {
+}
+.wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+.text-wrapper{
+    max-width: 1040px;
+    margin: 0 auto;
+    background-color: red;
+
+}
+footer {
     background-image: url("assets/images/footer-bg.png");
     background-size: cover;
 
 }
+
 .footer-heading {
     font-size: 29px;
     letter-spacing: 0;
