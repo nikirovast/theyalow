@@ -1,28 +1,88 @@
 body {
 }
-.wrapper{
+
+.wrapper {
     max-width: 1300px;
     margin: 0 auto;
-    background-color: yellow;
 }
-.text-wrapper{
+
+.text-wrapper {
     max-width: 1040px;
     margin: 0 auto;
-    background-color: red;
 
 }
+
+
+.devices-heading {
+    text-transform: uppercase;
+    font-size: 43px;
+    letter-spacing: 0;
+    color: #f5c506;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.devices-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.devices-pictures {
+    position: relative;
+}
+
+.free {
+    font-size: 19px;
+    letter-spacing: 0;
+    color: #ffffff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    background-color: #f5c506;
+    width: 115px;
+    height: 115px;
+    text-align: center;
+    line-height: 115px;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: -50px;
+
+}
+
+.devices ul {
+    width: 352px;
+    list-style-image: url('assets/images/ul-style.png');
+}
+
+.devices li {
+    font-size: 22px;
+    letter-spacing: 0;
+    color: #a9a9a7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
 footer {
     background-image: url("assets/images/footer-bg.png");
     background-size: cover;
+    -webkit-box-shadow: 0 -7px 5px 0 rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: 0 -7px 5px 0 rgba(0, 0, 0, 0.78);
+    box-shadow: 0 -7px 5px 0 rgba(0, 0, 0, 0.78);
 
 }
 
 .footer-heading {
     font-size: 29px;
-    letter-spacing: 0;
     color: #ffffff;
-    font-family: "Lucida Sans", monospace;
+    font-family: 'Lucida Sans', SansSerif;
     font-style: italic;
     text-align: center;
+    letter-spacing: 2px;
     display: inline;
+}
+
+footer.text-wrapper {
+    display: flex;
 }
