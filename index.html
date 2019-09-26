@@ -3,35 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <title>Theyalow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous"/>
     <link href="style.css" rel="stylesheet">
     <link href="fonts.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|PT+Sans+Narrow:700&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap|Open+Sans|PT+Sans|PT+Sans+Narrow:700&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="wrapper">
-
-    <header>
-        <img class="header-logo" alt="header logo" src="assets/images/logo.svg">
-        <h1>THEYALOW</h1>
-        <nav>
-            <ul>
-                <li>ABOUT US</li>
-                <li>SERVICES</li>
-                <li>CONTACT</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <img class="icon" alt="icon" src="assets/images/icon1.svg">
-            <h2>BETTER DESIGN</h2>
-            <img class="icon" alt="icon" src="assets/images/icon2.svg">
-            <h2>CUSTOMIZE</h2>
-            <img class="icon" alt="icon" src="assets/images/icon3.svg">
-            <h2>IT'S FREE</h2>
+    <div class="bg-wrapper">
+        <header>
+            <div class="text-wrapper">
+                <img class="header-logo" alt="header logo" src="assets/images/logo.svg">
+                <h1 class="header-heading">THEYALOW</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>ABOUT US</li>
+                    <li>SERVICES</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+        </header>
+        <section class="video">
+            <div class="text-wrapper">
+                <video poster="assets/images/video-ph.jpg"></video>
+                <h2 class="video-heading"><span class="yellow">The cool</span><br>
+                    The minimal</h2>
+            </div>
+            <div class="arrays">
+                <img src="assets/images/left-array.png" alt="left video array">
+                <img src="assets/images/right-array.png" alt="right video array">
+            </div>
         </section>
-    </main>
+    </div>
+    <section class="twitter">
+        <div class="text-wrapper">
+            <h2 class="twitter-heading">Lorem ipsum dolor sit amet</h2>
+            <section class="twitts">
+                <div class="twitts_item twitts-text">
+                    <p class="twitts-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut</p>
+                    <a class="plus_button" href="#"><img src="assets/images/plus_button.svg" alt="plus button"></a>
+                </div>
+                <video class="twitter-video" poster="assets/images/twitter-ph.jpg"></video>
+                <div class="twitts_item twitts-img">
+                    <img class="twitter-icon" src="assets/images/twitter-icon.svg" alt="twitter icon">
+                    <a class="plus_button" href="#"><img src="assets/images/plus_button.svg" alt="plus button"></a>
+                    <p class="twitts-number">22</p>
+                </div>
+            </section>
+            <div class="twitter-slider">
+                <div class="twitter-subsluder"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="text-wrapper">
+            <div class="advantages-item-border">
+                <div class="advantages-item">
+                    <img class="advantages-icon" alt="icon" src="assets/images/icon1.svg">
+                    <h2 class="advantages-header">BETTER DESIGN</h2>
+                </div>
+            </div>
+            <div class="advantages-item-border">
+                <div class="advantages-item">
+                    <img class="advantages-icon" alt="icon" src="assets/images/icon2.svg">
+                    <h2 class="advantages-header">CUSTOMIZE</h2>
+                </div>
+            </div>
+            <div class="advantages-item-border">
+                <div class="advantages-item">
+                    <img class="advantages-icon" alt="icon" src="assets/images/icon3.svg">
+                    <h2 class="advantages-header">IT'S FREE</h2>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="devices">
         <div class="text-wrapper">
@@ -40,10 +89,11 @@
             <div class="devices-flex">
                 <div class="devices-pictures">
                     <p class="free">Its 100% Free</p>
-                    <img src="assets/images/laptop.png" alt="computer picture">
-                    <img src="assets/images/ipad.png" alt="tablet picture">
-                    <img src="assets/images/phone.png" alt="phone picture">
+                    <img class="devices-pictures__item" src="assets/images/laptop.png" alt="computer picture">
+                    <img class="devices-pictures__item" src="assets/images/ipad.png" alt="tablet picture">
+                    <img class="devices-pictures__item" src="assets/images/phone.png" alt="phone picture">
                 </div>
+
                 <ul>
                     <li>Sed ut perspiciatis unde omnis</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
