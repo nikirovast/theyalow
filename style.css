@@ -13,28 +13,35 @@
     background-image: url("assets/images/header-bg.png");
     background-size: cover;
     height: 564px;
+}
 
-
+.header-logo {
+    margin-top: 14px;
+    margin-left: 10px;
 }
 
 .header-heading {
     font-size: 41px;
-    letter-spacing: 0;
+    letter-spacing: 1.1px;
     color: #ffffff;
     font-family: 'Lucida Sans', sans-serif;
     font-style: italic;
     text-align: center;
+    margin-top: 50px;
+    margin-left: -1px;
+    font-weight: 400;
 }
 
 .video video {
     width: 550px;
+    margin-top: -41px;
+    margin-left: 22px;
 }
 
 .video .text-wrapper {
     justify-content: space-between;
 }
-
-.video-heading {
+.videoh-item1{
     font-size: 63px;
     letter-spacing: 1px;
     color: #ffffff;
@@ -42,17 +49,26 @@
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 30px;
+    margin-right: 42px;
 }
-
-.yellow {
+.videoh-item2{
+    font-size: 63px;
+    letter-spacing: 1px;
     color: #f5c506;
+    font-family: 'Asap', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -48px;
+    margin-right: 24px;
 }
 
 .arrays {
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: -270px;
+    top: -194px;
 }
 
 .twitter {
