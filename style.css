@@ -21,7 +21,7 @@
     font-size: 41px;
     letter-spacing: 0;
     color: #ffffff;
-    font-family: 'Lucida Sans', SansSerif;
+    font-family: 'Lucida Sans', sans-serif;
     font-style: italic;
     text-align: center;
 }
@@ -67,7 +67,7 @@
     font-size: 37px;
     letter-spacing: 0;
     color: #ffffff;
-    font-family: 'PT Sans', SansSerif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
 }
 
@@ -112,9 +112,9 @@
 
 .twitts-data {
     font-size: 21px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: #b26529;
-    font-family: 'Segoe UI', SansSerif;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .twitts-day {
@@ -122,7 +122,7 @@
     letter-spacing: 1px;
     line-height: 38px;
     color: #ffffff;
-    font-family: 'Segoe UI', SansSerif;
+    font-family: 'Segoe UI', sans-serif;
     font-weight: bold;
 }
 
@@ -136,7 +136,7 @@
     letter-spacing: 0;
     line-height: 38px;
     color: #ffffff;
-    font-family: 'Segoe WP', SansSerif;
+    font-family: 'Segoe WP', sans-serif;
     font-weight: 300;
     position: absolute;
     top: 10px;
@@ -150,7 +150,7 @@
     letter-spacing: 0;
     line-height: 38px;
     color: #ffffff;
-    font-family: 'Segoe WP', SansSerif;
+    font-family: 'Segoe WP', sans-serif;
     font-weight: 300;
     margin: 20px;
 }
@@ -209,7 +209,7 @@
     font-size: 27px;
     letter-spacing: 0;
     color: #000000;
-    font-family: 'Segoe UI', SansSerif;
+    font-family: 'Segoe UI', sans-serif;
     font-weight: 300;
     text-align: center;
     margin: 0;
@@ -306,7 +306,7 @@ footer .text-wrapper, header .text-wrapper, .video .text-wrapper {
 .footer-heading {
     font-size: 29px;
     color: #ffffff;
-    font-family: 'Lucida Sans', SansSerif;
+    font-family: 'Lucida Sans', sans-serif;
     font-style: italic;
     text-align: center;
     letter-spacing: 2px;
