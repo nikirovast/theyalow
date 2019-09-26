@@ -16,6 +16,7 @@
 
 
 }
+
 .header-heading {
     font-size: 41px;
     letter-spacing: 0;
@@ -37,7 +38,7 @@
     font-size: 63px;
     letter-spacing: 1px;
     color: #ffffff;
-    font-family: 'Asap', SansSerif;
+    font-family: 'Asap', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
@@ -95,6 +96,34 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
+}
+
+.twitts-data-wrapper {
+    position: absolute;
+    bottom: -88px;
+    left: 0;
+
+    width: 108px;
+    height: 88px;
+    text-align: center;
+    background-image: url("assets/images/twitts-data-bg.png");
+    background-size: cover;
+}
+
+.twitts-data {
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #b26529;
+    font-family: 'Segoe UI', SansSerif;
+}
+
+.twitts-day {
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: 'Segoe UI', SansSerif;
+    font-weight: bold;
 }
 
 .twitts-img {
