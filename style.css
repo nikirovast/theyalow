@@ -86,6 +86,27 @@ header {
     padding-right: 5px;
 }
 
+.video-wrapper {
+    position: relative;
+}
+
+.play-icon {
+    position: absolute;
+    top: 171px;
+    left: 263px;
+}
+.sound-icon {
+    position: absolute;
+    bottom: 45px;
+    right: 19px;
+}
+.start-icon {
+    position: absolute;
+    left: 49px;
+    bottom: 40px;
+}
+
+
 .video video {
     width: 550px;
     margin-top: 41px;
@@ -304,6 +325,7 @@ header {
     margin-left: 22px;
     letter-spacing: 3px;
 }
+
 .itfree .advantages-icon {
     padding-right: 41px;
     padding-top: 13px;
