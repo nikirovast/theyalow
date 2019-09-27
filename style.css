@@ -28,20 +28,33 @@
     font-style: italic;
     text-align: center;
     margin-top: 50px;
-    margin-left: -1px;
+    margin-left: -4px;
     font-weight: 400;
 }
 
 .video video {
     width: 550px;
-    margin-top: -41px;
-    margin-left: 22px;
+    margin-top: -43px;
+    margin-left: 20px
 }
 
 .video .text-wrapper {
     justify-content: space-between;
 }
-.videoh-item1{
+
+.videoh-item1 {
+    font-size: 63px;
+    letter-spacing: 1px;
+    font-family: 'Asap', sans-serif;
+    color: #f5c506;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 33px;
+    margin-right: 44px;
+}
+
+.videoh-item2 {
     font-size: 63px;
     letter-spacing: 1px;
     color: #ffffff;
@@ -49,26 +62,15 @@
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 30px;
-    margin-right: 42px;
-}
-.videoh-item2{
-    font-size: 63px;
-    letter-spacing: 1px;
-    color: #f5c506;
-    font-family: 'Asap', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: -48px;
-    margin-right: 24px;
+    margin-top: -50px;
+    margin-right: 25px;
 }
 
 .arrays {
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: -194px;
+    top: -189px;
 }
 
 .twitter {
@@ -85,6 +87,8 @@
     color: #ffffff;
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
+    margin-top: 36px;
+    margin-left: 12px;
 }
 
 .twitts {
@@ -92,34 +96,45 @@
 }
 
 .twitter-video {
-    width: 312px;
-    height: 230px;
+    width: 317px;
+    height: 235px;
 }
 
 .twitter-icon {
     display: block;
-    margin: 48px auto;
+    margin: 57px auto;
+}
+
+.twitts_item.twitts-text {
+    width: 340px;
+    margin-left: 10px;
+    height: 233px;
+    background-color: #ec9e03;
+}
+
+.twitts_item.twitts-img {
+    width: 331px;
+    margin-right: 10px;
+    height: 233px;
+    background-color: #ec9e03;
 }
 
 .twitts_item {
-    width: 340px;
-    height: 230px;
-    background-color: #ec9e03;
+
     position: relative;
 }
 
 .plus_button {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 9px;
+    right: 12px;
 }
 
 .twitts-data-wrapper {
     position: absolute;
     bottom: -88px;
     left: 0;
-
-    width: 108px;
+    width: 112px;
     height: 88px;
     text-align: center;
     background-image: url("assets/images/twitts-data-bg.png");
@@ -128,18 +143,21 @@
 
 .twitts-data {
     font-size: 21px;
-    letter-spacing: 0;
+    letter-spacing: 2px;
     color: #b26529;
     font-family: 'Segoe UI', sans-serif;
+    margin-left: 16px;
 }
 
 .twitts-day {
-    font-size: 51px;
-    letter-spacing: 1px;
-    line-height: 38px;
+    font-size: 54px;
+    letter-spacing: 6px;
+    line-height: 22px;
     color: #ffffff;
     font-family: 'Segoe UI', sans-serif;
     font-weight: bold;
+    margin-top: 4px;
+    margin-left: 7px;
 }
 
 .twitts-img {
@@ -156,7 +174,7 @@
     font-weight: 300;
     position: absolute;
     top: 10px;
-    right: 20px;
+    right: 16px;
     margin: 0;
 
 }
@@ -179,7 +197,7 @@
     background-color: #ffffff;
     opacity: 0.48;
     position: relative;
-    margin: 130px auto 20px;
+    margin: 127px 82px;
 }
 
 .twitter-subsluder {
@@ -188,7 +206,7 @@
     border-radius: 7px;
     background-color: #ec9e03;
     position: absolute;
-    left: 20%;
+    left: 28%;
 }
 
 .advantages {
@@ -205,7 +223,8 @@
 }
 
 .advantages-item-border {
-    width: 33.333333333333%;
+    padding-left: 5px;
+    width: 412px;
     height: 212px;
     border-right: 1px solid lightgray;
     margin: 0 auto;
@@ -248,7 +267,7 @@
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     text-align: center;
-    margin: 70px 0 59px;
+    margin: 36px 0 59px;
 }
 
 .devices-flex {
@@ -263,9 +282,17 @@
 }
 
 .devices-pictures__item {
-    margin: 0 10px;
+    margin: -9px 28px;
 }
+.tablet{
+    margin-left: -7px;
+    margin-bottom: 30px;
+}
+.phone{
+    margin-bottom: 31px;
 
+    margin-left: -9px;
+}
 .free {
     font-size: 19px;
     white-space: nowrap;
@@ -280,14 +307,17 @@
     line-height: 115px;
     border-radius: 50%;
     position: absolute;
-    left: -30px;
-    top: -50px;
+    left: 10px;
+    top: -70px;
+    width: 115px;
 
 }
 
 .devices ul {
     width: 352px;
     list-style-image: url('assets/images/ul-style.png');
+    margin-top: 34px;
+    margin-right: 14px;
 }
 
 .devices li {
@@ -296,7 +326,8 @@
     color: #a9a9a7;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    margin: 10px;
+    margin-bottom: 22px;
+    padding-left: 7px;
 
 }
 
@@ -317,6 +348,8 @@ footer .text-wrapper, header .text-wrapper, .video .text-wrapper {
 .footer-logo {
     width: 53px;
     vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 2px;
 }
 
 .footer-heading {
@@ -325,5 +358,7 @@ footer .text-wrapper, header .text-wrapper, .video .text-wrapper {
     font-family: 'Lucida Sans', sans-serif;
     font-style: italic;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
+    margin-left: 3px;
+    margin-top: 20px;
 }
