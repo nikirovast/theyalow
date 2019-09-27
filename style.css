@@ -98,14 +98,14 @@ header {
 
 .sound-icon {
     position: absolute;
-    bottom: 45px;
-    right: 19px;
+    bottom: 17px;
+    right: 21px;
 }
 
 .start-icon {
     position: absolute;
     left: 49px;
-    bottom: 40px;
+    bottom: 13px;
 }
 
 .small-slider {
@@ -191,6 +191,12 @@ header {
 .twitter-video {
     width: 317px;
     height: 235px;
+}
+
+.twit-play {
+    position: absolute;
+    top: 92px;
+    left: 128px;
 }
 
 .twitter-icon {
