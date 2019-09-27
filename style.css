@@ -15,9 +15,13 @@
     height: 564px;
 }
 
+header {
+    display: flex;
+}
+
 .header-logo {
-    margin-top: 14px;
-    margin-left: 10px;
+    margin-top: 8px;
+    margin-left: -116px;
 }
 
 .header-heading {
@@ -27,14 +31,64 @@
     font-family: 'Lucida Sans', sans-serif;
     font-style: italic;
     text-align: center;
-    margin-top: 50px;
-    margin-left: -4px;
+    margin-top: 47px;
+    margin-left: -3px;
     font-weight: 400;
+
+}
+
+.nav-wrapper {
+    position: relative;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 17px;
+    letter-spacing: 0;
+    color: #9b7d08;
+    font-family: 'Segoe WP, ,sans-serif;
+    text-align: center;
+    width: 411px;
+    height: 41px;
+    line-height: 41px;
+    background-color: #f5c506;
+    margin-right: 141px;
+    margin-top: 67px;
+}
+
+.nav-list li {
+    padding-right: 36px;
+}
+
+.first-nav-wrapper {
+    width: 451px;
+    height: 41px;
+    background-color: #f5c506;
+    opacity: 0.27;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.second-nav-wrapper {
+    width: 450px;
+    height: 41px;
+    background-color: #f5c506;
+    opacity: 0.27;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.nav-logo {
+    padding-right: 5px;
 }
 
 .video video {
     width: 550px;
-    margin-top: -43px;
+    margin-top: 41px;
     margin-left: 20px
 }
 
@@ -50,8 +104,8 @@
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 33px;
-    margin-right: 44px;
+    margin-top: 115px;
+    margin-right: 45px;
 }
 
 .videoh-item2 {
@@ -284,15 +338,18 @@
 .devices-pictures__item {
     margin: -9px 28px;
 }
-.tablet{
+
+.tablet {
     margin-left: -7px;
     margin-bottom: 30px;
 }
-.phone{
+
+.phone {
     margin-bottom: 31px;
 
     margin-left: -9px;
 }
+
 .free {
     font-size: 19px;
     white-space: nowrap;
@@ -358,7 +415,7 @@ footer .text-wrapper, header .text-wrapper, .video .text-wrapper {
     font-family: 'Lucida Sans', sans-serif;
     font-style: italic;
     text-align: center;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     margin-left: 3px;
     margin-top: 20px;
 }
