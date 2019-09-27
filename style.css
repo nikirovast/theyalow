@@ -95,17 +95,35 @@ header {
     top: 171px;
     left: 263px;
 }
+
 .sound-icon {
     position: absolute;
     bottom: 45px;
     right: 19px;
 }
+
 .start-icon {
     position: absolute;
     left: 49px;
     bottom: 40px;
 }
 
+.small-slider {
+    position: absolute;
+    width: 404px;
+    height: 12px;
+    border-radius: 5px;
+    background-color: rgba(295, 197, 6, 0.28);
+    left: 100px;
+    bottom: 23px;
+}
+
+.small-subslider {
+    width: 202px;
+    height: 12px;
+    border-radius: 5px;
+    background-color: #f5c506;
+}
 
 .video video {
     width: 550px;
