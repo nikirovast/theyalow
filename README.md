@@ -10,3 +10,7 @@ PSD:
 JPG:
 
 [theyalow JPG Desktop](desktop.jpg)
+
+Link to github pages: 
+
+[gh-pages](https://nikirovast.github.io/theyalow/)
